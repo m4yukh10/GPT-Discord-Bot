@@ -1,51 +1,11 @@
-# GPT-Discord Bot README
+# GPT-Discord Bot
 
-echo "GPT-Discord Bot"
-echo "================"
+## Introduction
+GPT-Discord Bot is an interactive chatbot that integrates the power of OpenAI's GPT models into Discord. Designed to provide users with an engaging and intelligent conversational experience, this bot leverages advanced AI to respond to user inputs with relevant and contextually aware messages.
 
-echo "Introduction"
-echo "------------"
-echo "GPT-Discord Bot is an interactive chatbot that integrates OpenAI's GPT models into Discord. It provides engaging, intelligent conversational experiences and contextually aware responses."
+## Features
+- **AI-Powered Conversations**: Engage in natural, AI-driven conversations directly within Discord.
+- **Inspirational Quotes**: Users can request inspirational quotes.
+- **Customizable Responses**: Tailor the bot's behavior to suit different Discord servers or contexts.
+- [Add other features specific to your bot here]
 
-echo "Features"
-echo "--------"
-echo "- AI-Powered Conversations: Engage in natural, AI-driven conversations."
-echo "- Inspirational Quotes: Users can request inspirational quotes."
-echo "- Customizable Responses: Tailor the bot's behavior for different contexts."
-# Add other features here
-
-echo "Installation"
-echo "------------"
-echo "1. Clone the Repository:"
-echo "   git clone https://github.com/m4yukh10/GPT-Discord-Bot.git"
-echo "   cd GPT-Discord-Bot"
-
-echo "2. Set Up Environment Variables:"
-echo "   - Create a .env file in the root directory."
-echo "   - Add your Discord Bot Token and OpenAI API Key:"
-echo "     DISCORD_TOKEN=your_discord_bot_token"
-echo "     OPENAI_API=your_openai_api_key"
-
-echo "3. Install Dependencies:"
-echo "   pip install -r requirements.txt"
-
-echo "4. Run the Bot:"
-echo "   python bot.py"
-
-echo "Usage"
-echo "-----"
-echo "- Get an Inspirational Quote: Type 'inspire kor amay' in any channel."
-echo "- Chat with GPT: Simply send a message, and the bot will respond."
-# Add other usage instructions or commands here
-
-echo "Contributing"
-echo "------------"
-echo "Contributions are welcome! Feel free to fork the repo and submit a pull request."
-
-echo "License"
-echo "-------"
-echo "[Specify the license or if it's open source]"
-
-echo "Contact"
-echo "-------"
-echo "For queries or support, please reach out to [Your Contact Information]."
