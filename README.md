@@ -1,11 +1,19 @@
-# GPT-Discord Bot
+# Discord GPT & Quote Bot
 
-## Introduction
-GPT-Discord Bot is an interactive chatbot that integrates the power of OpenAI's GPT models into Discord. Designed to provide users with an engaging and intelligent conversational experience, this bot leverages advanced AI to respond to user inputs with relevant and contextually aware messages.
+This Discord bot is designed to perform two main functions: provide inspirational quotes and respond to user messages using OpenAI's GPT-3.5 Turbo model. It's built using the `discord.py` library for interaction with Discord and the `openai` Python client for generating text responses.
 
 ## Features
-- **AI-Powered Conversations**: Engage in natural, AI-driven conversations directly within Discord.
-- **Inspirational Quotes**: Users can request inspirational quotes.
-- **Customizable Responses**: Tailor the bot's behavior to suit different Discord servers or contexts.
-- [Add other features specific to your bot here]
+
+- **Inspirational Quotes**: Upon receiving a specific command (e.g., "inspire kor amay"), the bot fetches a random inspirational quote from ZenQuotes.io and sends it in the chat.
+- **GPT-3.5 Turbo Interaction**: For other messages, the bot uses OpenAI's GPT-3.5 Turbo model to generate and send a relevant response based on the user's input.
+
+## Prerequisites
+
+Before you can run this bot, you'll need to install the following:
+- Python 3.6 or higher
+- `discord.py` library
+- `requests` library
+- `openai` Python client
+
+Additionally, you must have a Discord bot token and an OpenAI API key.
 
